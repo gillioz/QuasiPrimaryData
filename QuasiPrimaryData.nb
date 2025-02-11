@@ -2073,14 +2073,14 @@ Cell[BoxData[
    "\[IndentingNewLine]", 
    RowBox[{"Export", "[", 
     RowBox[{
-    "\"\<CFTdata/Ising_ss1.dat\>\"", ",", "OPEdata\[Sigma]\[Sigma]1"}], "]"}],
+    "\"\<CFTdata/Ising_ss1.csv\>\"", ",", "OPEdata\[Sigma]\[Sigma]1"}], "]"}],
     "\[IndentingNewLine]", 
    RowBox[{"Export", "[", 
     RowBox[{
-    "\"\<CFTdata/Ising_sse.dat\>\"", ",", 
+    "\"\<CFTdata/Ising_sse.csv\>\"", ",", 
      "OPEdata\[Sigma]\[Sigma]\[Epsilon]"}], "]"}], "\[IndentingNewLine]", 
    RowBox[{"Export", "[", 
-    RowBox[{"\"\<CFTdata/Ising_ss.dat\>\"", ",", "OPEdata\[Sigma]\[Sigma]"}], 
+    RowBox[{"\"\<CFTdata/Ising_ss.csv\>\"", ",", "OPEdata\[Sigma]\[Sigma]"}], 
     "]"}]}], "*)"}]], "Input",
  CellChangeTimes->{{3.756729608407795*^9, 3.7567296618306503`*^9}, {
   3.756729883448504*^9, 3.756729883815474*^9}, {3.756729933485413*^9, 
@@ -2735,7 +2735,7 @@ Cell[BoxData[
    "\[IndentingNewLine]", 
    RowBox[{"Export", "[", 
     RowBox[{
-    "\"\<CFTdata/Ising_ee.dat\>\"", ",", "OPEdata\[Epsilon]\[Epsilon]"}], 
+    "\"\<CFTdata/Ising_ee.csv\>\"", ",", "OPEdata\[Epsilon]\[Epsilon]"}], 
     "]"}]}], "*)"}]], "Input",
  CellChangeTimes->{{3.756729608407795*^9, 3.7567296618306503`*^9}, {
    3.756729883448504*^9, 3.756729883815474*^9}, {3.756729933485413*^9, 
@@ -3184,7 +3184,7 @@ Cell[BoxData[
    "\[IndentingNewLine]", 
    RowBox[{"Export", "[", 
     RowBox[{
-    "\"\<CFTdata/Ising_se.dat\>\"", ",", "OPEdata\[Sigma]\[Epsilon]"}], 
+    "\"\<CFTdata/Ising_se.csv\>\"", ",", "OPEdata\[Sigma]\[Epsilon]"}], 
     "]"}]}], "*)"}]], "Input",
  CellChangeTimes->{{3.756729608407795*^9, 3.7567296618306503`*^9}, {
    3.756729883448504*^9, 3.756729883815474*^9}, {3.756729933485413*^9, 
@@ -3848,7 +3848,7 @@ Cell[BoxData[
      RowBox[{"NotebookDirectory", "[", "]"}], "]"}], ";"}], 
    "\[IndentingNewLine]", 
    RowBox[{"Export", "[", 
-    RowBox[{"\"\<CFTdata/FreeScalar_TTbar.dat\>\"", ",", "OPEdataTTbar"}], 
+    RowBox[{"\"\<CFTdata/FreeScalar_TTbar.csv\>\"", ",", "OPEdataTTbar"}], 
     "]"}]}], "*)"}]], "Input",
  CellChangeTimes->{{3.756729608407795*^9, 3.7567296618306503`*^9}, {
    3.756729883448504*^9, 3.756729883815474*^9}, {3.756729933485413*^9, 
@@ -3960,27 +3960,27 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{"OPEdata\[Sigma]\[Sigma]1", "=", 
    RowBox[{"ToExpression", "[", 
-    RowBox[{"Import", "[", "\"\<CFTdata/Ising_ss1.dat\>\"", "]"}], "]"}]}], 
+    RowBox[{"Import", "[", "\"\<CFTdata/Ising_ss1.csv\>\"", "]"}], "]"}]}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"OPEdata\[Sigma]\[Sigma]\[Epsilon]", "=", 
    RowBox[{"ToExpression", "[", 
-    RowBox[{"Import", "[", "\"\<CFTdata/Ising_sse.dat\>\"", "]"}], "]"}]}], 
+    RowBox[{"Import", "[", "\"\<CFTdata/Ising_sse.csv\>\"", "]"}], "]"}]}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"OPEdata\[Sigma]\[Sigma]", "=", 
    RowBox[{"ToExpression", "[", 
-    RowBox[{"Import", "[", "\"\<CFTdata/Ising_ss.dat\>\"", "]"}], "]"}]}], 
+    RowBox[{"Import", "[", "\"\<CFTdata/Ising_ss.csv\>\"", "]"}], "]"}]}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"OPEdata\[Epsilon]\[Epsilon]", "=", 
    RowBox[{"ToExpression", "[", 
-    RowBox[{"Import", "[", "\"\<CFTdata/Ising_ee.dat\>\"", "]"}], "]"}]}], 
+    RowBox[{"Import", "[", "\"\<CFTdata/Ising_ee.csv\>\"", "]"}], "]"}]}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"OPEdata\[Sigma]\[Epsilon]", "=", 
    RowBox[{"ToExpression", "[", 
-    RowBox[{"Import", "[", "\"\<CFTdata/Ising_se.dat\>\"", "]"}], "]"}]}], 
+    RowBox[{"Import", "[", "\"\<CFTdata/Ising_se.csv\>\"", "]"}], "]"}]}], 
   ";"}]}], "Input",
  CellChangeTimes->{{3.757397771979082*^9, 3.7573978339463663`*^9}, {
   3.75739875623135*^9, 
